@@ -4,6 +4,8 @@ import './App.css';
 import { Layout, Breadcrumb } from 'antd';
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 import HomePage from './pages/HomePage';
+import HeaderWrapper from './components/HeaderWrapper';
+import FooterWrapper from './components/FooterWrapper';
 
 const { Header, Content, Footer } = Layout;
 
@@ -15,7 +17,7 @@ function App() {
           <Route exact path="/">
             <Layout className="layout">
               <Header>
-                {/* <HeaderWrapper /> */}
+                <HeaderWrapper />
               </Header>
               <Content style={{ padding: '0 50px' }}>
                 <Breadcrumb style={{ margin: '16px 0' }} />
@@ -24,7 +26,7 @@ function App() {
                 </div>
               </Content>
               <Footer>
-                {/* <FooterWrapper /> */}
+                <FooterWrapper />
               </Footer>
             </Layout>
           </Route>
