@@ -1,4 +1,5 @@
 import React from 'react';
+import OverView from '../components/OverView';
 
 function HomePage() {
 
@@ -6,7 +7,7 @@ function HomePage() {
 
     return (
         <div>
-            Welcome!
+            <OverView />
         </div>
     )
 }
