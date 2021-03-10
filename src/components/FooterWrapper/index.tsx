@@ -10,7 +10,7 @@ function FooterWrapper() {
 
     const copyright = (
         <div>
-            Copyright <CopyrightOutlined /> 2020 SwapDao Finance
+            Copyright <CopyrightOutlined /> 2021 SwapDao Finance
         </div>
     );
 
