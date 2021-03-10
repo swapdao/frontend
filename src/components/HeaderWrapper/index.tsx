@@ -1,7 +1,7 @@
 import React from 'react';
 import { Menu, Row, Col } from 'antd';
 import { Link } from 'react-router-dom';
-// import WalletStatus from '../WalletStatus';
+import WalletStatus from '../WalletStatus';
 import { FormattedMessage } from 'react-intl'
 
 function HeaderWrapper() {
@@ -35,14 +35,13 @@ function HeaderWrapper() {
                         </Link>
                     </Menu.Item>
                 </Col>
-                <Col span={10}>
+                <Col span={8}>
                     <Menu.Item key='5'>
                     </Menu.Item>
                 </Col>
-                <Col span={4}>
+                <Col span={6}>
                     <Menu.Item key='6'>
-                        MetaMask
-                        {/* <WalletStatus /> */}
+                        <WalletStatus />
                     </Menu.Item>
                 </Col>
             </Row>

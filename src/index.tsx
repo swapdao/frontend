@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Web3ReactProvider } from '@web3-react/core';
+import getLibrary from './utils/getLibrary'
 import { ConfigProvider } from 'antd'
 import zhCN from 'antd/es/locale/zh_CN';
 import enUS from 'antd/es/locale/en_US';
@@ -52,11 +54,13 @@ function antdByLocale() {
 
 ReactDOM.render(
   <React.StrictMode>
+    <Web3ReactProvider getLibrary={getLibrary}>
       <IntlProvider locale={intlLocale()} messages={messagesByLocale()}>
         <ConfigProvider locale={antdByLocale()}>
           <App />
         </ConfigProvider>
       </IntlProvider>
+    </Web3ReactProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

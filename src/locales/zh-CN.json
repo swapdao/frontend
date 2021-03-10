@@ -13,6 +13,12 @@
     "aboutUs": "关于我们",
     "announcements": "公告",
     "weibo": "官方微博",
-    "joinUs": "加入我们"
+    "joinUs": "加入我们",
+
+    "tipButtonSDO": "点击显示挖矿收益",
+    "connectWallet": "连接 MetaMask",
+    "tipButtonWallet": "钱包连接与断开",
+    "infoConnectWallet": "您确定要断开MetaMask钱包连接吗?",
+    "modalTitle": "SwapDao去中心化交易所"
 
 }

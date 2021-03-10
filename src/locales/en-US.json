@@ -13,6 +13,12 @@
     "aboutUs": "About US",
     "announcements": "Announcements",
     "weibo": "Weibo",
-    "joinUs": "Join US"
+    "joinUs": "Join US",
+
+    "tipButtonSDO": "show miner balance",
+    "connectWallet": "Connect MetaMask",
+    "tipButtonWallet": "wallet connect and disconnect",
+    "infoConnectWallet": "Are you sure to disconnect MetaMask wallet ?",
+    "modalTitle": "SwapDao DEX"
 
 }
