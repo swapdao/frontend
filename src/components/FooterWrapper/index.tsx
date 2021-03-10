@@ -32,8 +32,8 @@ function FooterWrapper() {
                 <Col span={6}>
                     <h2><FormattedMessage id="community" /></h2>
                     <h4><a href="https://twitter.com/007LongShao" target="_blank" rel="noreferrer">Twitter</a></h4>
-                    <h4><a href="https://twitter.com/007LongShao" target="_blank" rel="noreferrer">Discord</a></h4>
-                    <h4><a href="https://twitter.com/007LongShao" target="_blank" rel="noreferrer">Telegram</a></h4>
+                    <h4><a href="https://discord.gg/dxfsxKkhAa" target="_blank" rel="noreferrer">Discord</a></h4>
+                    {/* <h4><a href="https://twitter.com/007LongShao" target="_blank" rel="noreferrer">Telegram</a></h4> */}
                 </Col>
                 <Col span={6}>
                     <h2><FormattedMessage id="aboutUs" /></h2>
