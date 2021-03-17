@@ -80,38 +80,9 @@ function WalletStatus() {
         }
     }, [account, library, chainId])
 
-    //  获取地址的Token的余额
-    const [sdoBalance, setSdoBalance] = useState<string>();
-    useEffect((): any => {
-        async function getAddressBalance() {
-            // if (!!account && !!library) {
-            //     let contractToken = new ethers.Contract(contractConfig["sdoToken"]["address"], contractConfig["sdoToken"]["interfaces"], library);
-            //     let bal = formatUnits(await contractToken.balanceOf(account));
-            //     console.log("SwapDao balanceOf=", bal);
-            //     setSdoBalance(bal.substring(0, bal.indexOf('.') + 5) + " SDO");
-            // } else {
-                setSdoBalance("0.0 SDO");
-            // }
-        }
-        getAddressBalance();
-    }, [account, library, chainId])
-
-    //  显示Miner Balance框
-    const handelMinerBalance = (): any => {
-        // if (!active) {
-        //     activate(injected);
-        //     console.log("SwapDao activate=", context);
-        // } else {
-        //     setIsMinerBalance(true);
-        // }
-    }
-
     return (
         <span>
             <Space size={'middle'}>
-                <Tooltip placement="bottomRight" title={intl.formatMessage({ id: "tipButtonSDO" })} >
-                    <Button type='dashed' onClick={handelMinerBalance} style={{ fontWeight: "bolder", fontSize: "14px", width: '130px' }} >{sdoBalance}</Button>
-                </Tooltip>
                 <Button type='dashed' style={{ fontWeight: "bolder", fontSize: "14px", width: '130px' }} >{ethBalance}</Button>
                 <Tooltip placement="bottomRight" title={intl.formatMessage({ id: "tipButtonWallet" })} >
                     <Button type='primary' onClick={handelWallet}>{accountAddress}</Button>

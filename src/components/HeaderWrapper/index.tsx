@@ -31,11 +31,11 @@ function HeaderWrapper() {
                 <Col span={2}>
                     <Menu.Item key='4'>
                         <Link to="/">
-                            <FormattedMessage id="SDOToken" />
+                            <FormattedMessage id="bridge" />
                         </Link>
                     </Menu.Item>
                 </Col>
-                <Col span={8}>
+                <Col span={10}>
                     <Menu.Item key='5'>
                     </Menu.Item>
                 </Col>
