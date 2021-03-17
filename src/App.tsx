@@ -6,6 +6,7 @@ import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import HeaderWrapper from './components/HeaderWrapper';
 import FooterWrapper from './components/FooterWrapper';
+import TokenAlert from './components/TokenAlert';
 
 const { Header, Content, Footer } = Layout;
 
@@ -16,6 +17,7 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Layout className="layout">
+              <TokenAlert />
               <Header>
                 <HeaderWrapper />
               </Header>

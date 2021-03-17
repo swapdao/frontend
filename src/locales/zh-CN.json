@@ -19,6 +19,8 @@
     "connectWallet": "连接 MetaMask",
     "tipButtonWallet": "钱包连接与断开",
     "infoConnectWallet": "您确定要断开MetaMask钱包连接吗?",
-    "modalTitle": "SwapDao去中心化交易所"
+    "modalTitle": "SwapDao去中心化交易所",
+
+    "tokenAlert": "本产品没有发币计划，羊毛党关注其他产品吧，牛市时间宝贵，祝你们暴富！" 
 
 }
