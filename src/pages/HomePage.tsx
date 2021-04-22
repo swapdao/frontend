@@ -1,13 +1,13 @@
 import React from 'react';
-import OverView from '../components/OverView';
+import SwapToken from '../components/SwapToken';
 
 function HomePage() {
 
     console.log("SwapDao language:", navigator.language);
 
     return (
-        <div>
-            <OverView />
+        <div style={{ textAlign: 'center' }}>
+            <SwapToken />
         </div>
     )
 }
